@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Radarfoto Platzhalter</title>
+  <desc id="desc">Stilisierte Strassenszene mit Messrahmen und Fahrzeug als Platzhalterbild.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d8dde0" />
+      <stop offset="100%" stop-color="#b2b7ba" />
+    </linearGradient>
+    <linearGradient id="road" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5c5e62" />
+      <stop offset="100%" stop-color="#323438" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#sky)" />
+  <rect x="0" y="320" width="800" height="200" fill="url(#road)" />
+  <rect x="32" y="40" width="736" height="330" fill="none" stroke="#161616" stroke-width="10" />
+  <line x1="400" y1="320" x2="400" y2="520" stroke="#dad7cf" stroke-width="10" stroke-dasharray="28 22" />
+  <rect x="70" y="360" width="240" height="56" rx="10" fill="#202327" />
+  <rect x="116" y="328" width="136" height="46" rx="12" fill="#202327" />
+  <circle cx="128" cy="422" r="22" fill="#111" />
+  <circle cx="256" cy="422" r="22" fill="#111" />
+  <text x="542" y="102" font-family="Arial, sans-serif" font-size="32" fill="#111">Messbereich A-17</text>
+  <text x="542" y="146" font-family="Arial, sans-serif" font-size="26" fill="#111">Zeitstempel: 19:00</text>
+  <text x="542" y="186" font-family="Arial, sans-serif" font-size="26" fill="#111">Anlage: Lebensjahr +1</text>
+  <circle cx="200" cy="390" r="96" fill="none" stroke="#962d23" stroke-width="8" />
+  <line x1="104" y1="390" x2="296" y2="390" stroke="#962d23" stroke-width="8" />
+  <line x1="200" y1="294" x2="200" y2="486" stroke="#962d23" stroke-width="8" />
+</svg>
