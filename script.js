@@ -7,9 +7,9 @@ const invitationConfig = {
   dressCode: "Unauffaellig festlich",
   rsvpLine: "Bitte kurze Zusage bis 10. April per Nachricht.",
   unlockCode: "34",
-  riddleText: "Die benoetigte Zahl entspricht dem Alter, das Gegenstand der Verhandlung wird, sobald der Tatvorwurf Geburtstag rechtswirksam festgestellt ist.",
+  riddleText: "Die benoetigte Zahl entspricht dem Alter, das Gegenstand der Verhandlung wird, sobald der Tatvorwurf rechtswirksam festgestellt ist.",
   offenseIncrementText: "+1 Lebensjahr",
-  witnessTitle: "Ladung in den Zeugenstand zur Verhandlung des Geburtstags",
+  witnessTitle: "Verhandlung des Geburtstags",
 };
 
 const storageKey = "birthday-invitation-unlocked";
@@ -26,8 +26,8 @@ const fieldMap = {
   dresscode: invitationConfig.dressCode || "Keine besondere dienstliche Anordnung.",
   rsvp: invitationConfig.rsvpLine || "Keine Rueckmeldung erforderlich.",
   riddle: invitationConfig.riddleText,
-  inviteTitle: `${invitationConfig.witnessTitle} im Fall ${invitationConfig.birthdayPersonName}`,
-  settlement: `Das Verfahren kann eingestellt werden, wenn Sie am ${invitationConfig.date} um ${invitationConfig.time} in ${invitationConfig.location} im Zeugenstand erscheinen, den Tatvorwurf Geburtstag ordnungsgemaess wuerdigen und durch angemessene Mitwirkung an Speisen und Getraenken zur Wahrheitsfindung beitragen.`,
+  inviteTitle: `${invitationConfig.witnessTitle} von ${invitationConfig.birthdayPersonName}`,
+  settlement: `Von weiteren Massnahmen kann abgesehen werden, wenn Sie am ${invitationConfig.date} um ${invitationConfig.time} in ${invitationConfig.location} erscheinen, gratulieren und durch angemessene Mitwirkung an Speisen, Getraenken und Gespraechen zur endgueltigen Erledigung des Verfahrens beitragen.`,
   caseRef: createCaseReference(invitationConfig),
   offenseCode: `Abschnitt AG-${String(invitationConfig.age).padStart(2, "0")}`,
 };

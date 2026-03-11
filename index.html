@@ -3,164 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vorgang zur Altersüberschreitung</title>
+    <title>Ladung zum Erscheinen als Zeuge</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="page-shell">
       <article class="notice" aria-labelledby="document-title">
-        <header class="document-head">
-          <div class="authority-block">
-            <p class="authority-overline">Fiktive Verwaltungsmitteilung</p>
-            <h1 id="document-title">Zentrale Stelle fuer Verkehrsangelegenheiten und Lebensfortschritt</h1>
-            <p class="authority-subline">Referat Altersgrenzen, Vorladung und verfahrensbegleitende Geselligkeit</p>
+        <header class="notice-header">
+          <div class="sigil" aria-hidden="true">
+            <span>ZS</span>
+            <span>VL</span>
           </div>
-          <div class="authority-side">
-            <p><strong>Dienstsitz:</strong> Haus fuer Ordnungsfragen, Abschnitt Nord</p>
-            <p><strong>Vorgang:</strong> <span data-case-ref>ZS-VL-2026-0417</span></p>
-            <p><strong>Datum:</strong> <span data-date>Samstag, 18. April 2026</span></p>
+          <div class="header-copy">
+            <p class="header-kicker">Fiktive gerichtliche Mitteilung</p>
+            <h1 id="document-title">Ladung zum Erscheinen als Zeuge</h1>
+            <p class="header-authority">
+              Kammer fuer Verkehrsangelegenheiten, Lebensfortschritt und verfahrensbegleitende Geselligkeit
+            </p>
+          </div>
+          <div class="header-meta">
+            <p><span>Aktenzeichen</span><strong data-case-ref>ZS-VL-2026-0417</strong></p>
+            <p><span>Ausfertigung vom</span><strong data-date>Samstag, 18. April 2026</strong></p>
+            <p><span>Schreibenart</span><strong>Zeugenladung</strong></p>
           </div>
         </header>
 
-        <section class="window-row" aria-label="Adress- und Versandbereich">
-          <div class="window-panel recipient-panel">
-            <p class="mini-label">Zustellung an</p>
+        <section class="address-row" aria-label="Adressbereich">
+          <div class="address-box">
+            <p class="box-label">Zustellung</p>
             <p class="recipient-name" data-name>Alex Beispiel</p>
-            <p>persoenlich / vertraulich</p>
-            <p>Letzter bekannter Aufenthaltsbereich</p>
+            <p>persoenlich</p>
+            <p>zu eigenen Haenden</p>
             <p><span class="redaction redaction-address" aria-hidden="true"></span></p>
           </div>
-          <div class="window-panel dispatch-panel">
-            <p class="mini-label">Schreibenart</p>
-            <p>Ladung in den Zeugenstand im vereinfachten Verfahren</p>
-            <p class="dispatch-code">Formblatt VL-17 / Lebensfortschritt</p>
-            <div class="stamp-stack">
-              <span class="stamp">ANHOERUNG</span>
-              <span class="stamp muted">VORGANG</span>
+          <div class="status-box">
+            <span class="stamp">ZEUGENLADUNG</span>
+            <span class="stamp muted">ANLAGE GESPERRT</span>
+          </div>
+        </section>
+
+        <section class="section-block docket-block" aria-labelledby="docket-heading">
+          <div class="block-head">
+            <h2 id="docket-heading">Vorgangsdaten</h2>
+            <span class="block-code">Blatt 1</span>
+          </div>
+          <dl class="data-grid">
+            <div class="data-row">
+              <dt>Vorgang</dt>
+              <dd>Verhandlung ueber einen im Raum stehenden Geburtstagsvorgang</dd>
             </div>
-          </div>
-        </section>
-
-        <section class="section-block summary-strip" aria-label="Kurzangaben">
-          <div class="summary-item">
-            <span class="summary-label">Aktenzeichen</span>
-            <span class="summary-value" data-case-ref>ZS-VL-2026-0417</span>
-          </div>
-          <div class="summary-item">
-            <span class="summary-label">Sachgebiet</span>
-            <span class="summary-value" data-offense-code>Abschnitt AG-29</span>
-          </div>
-          <div class="summary-item">
-            <span class="summary-label">Status</span>
-            <span class="summary-value">teilgesperrt bis Freigabe</span>
-          </div>
-        </section>
-
-        <section class="section-block" aria-labelledby="subject-heading">
-          <div class="block-heading">
-            <h2 id="subject-heading">Betroffene Person / Falldaten</h2>
-            <span class="block-code">Register 11a</span>
-          </div>
-          <dl class="form-grid">
-            <div class="form-row">
-              <dt>Name</dt>
+            <div class="data-row">
+              <dt>Betroffene Person</dt>
               <dd data-name>Alex Beispiel</dd>
             </div>
-            <div class="form-row">
-              <dt>Feststellungstag</dt>
-              <dd data-date>Samstag, 18. April 2026</dd>
+            <div class="data-row">
+              <dt>Vorlaeufiger Tatvorwurf</dt>
+              <dd>Ueberschreitung der zulaessigen Altersgrenze um <span data-age>+1 Lebensjahr</span></dd>
             </div>
-            <div class="form-row">
-              <dt>Vorwurf</dt>
-              <dd>Geburtstag als verhandlungsrelevanter Tatbestand</dd>
-            </div>
-            <div class="form-row">
-              <dt>Festgestellte Ueberschreitung</dt>
-              <dd data-age>+1 Lebensjahr</dd>
-            </div>
-            <div class="form-row">
-              <dt>Vorgesehener Erscheinungsort</dt>
-              <dd data-location>Atelierhaus Nord, Berlin</dd>
-            </div>
-            <div class="form-row">
-              <dt>Bearbeitungsstand</dt>
-              <dd>Stellungnahme moeglich</dd>
+            <div class="data-row">
+              <dt>Verfahrensstand</dt>
+              <dd>Zeugenaussage angeordnet, Detailanlage gesperrt</dd>
             </div>
           </dl>
         </section>
 
-        <section class="section-block photo-section" aria-labelledby="photo-heading">
-          <div class="block-heading">
+        <section class="section-block" aria-labelledby="facts-heading">
+          <div class="block-head">
+            <h2 id="facts-heading">Sachverhalt</h2>
+            <span class="block-code" data-offense-code>Abschnitt AG-29</span>
+          </div>
+          <p class="body-copy">
+            Ihnen wird bekanntgegeben, dass in vorbezeichneter Sache eine muendliche Verhandlung anberaumt ist. Gegenstand
+            des Verfahrens ist der Verdacht, dass am genannten Tag ein weiterer Geburtstag vollzogen worden sein koennte.
+          </p>
+          <p class="body-copy">
+            Nach bisherigem Akteninhalt wurde dabei ein Alter von <strong data-age-inline>34</strong> Jahren erreicht.
+            Ihre Kenntnis zum Vorgang wird fuer sachdienlich gehalten.
+          </p>
+        </section>
+
+        <section class="section-block photo-block" aria-labelledby="photo-heading">
+          <div class="block-head">
             <h2 id="photo-heading">Beweismittel / Bildaufzeichnung</h2>
             <span class="block-code">Anlage 2</span>
           </div>
           <figure class="evidence-frame">
-            <div class="photo-topline">
+            <div class="photo-meta">
               <span>automatisierte Erfassung</span>
-              <span>Messbereich Lebensfortschritt</span>
+              <span>freigegeben zur Einsicht</span>
             </div>
             <img
               src="assets/radar-placeholder.svg"
-              alt="Platzhalter fuer ein Beweisfoto einer Geschwindigkeitsmessung mit stilisiertem Fahrzeug"
+              alt="Platzhalter fuer eine Bildaufzeichnung eines mutmasslichen Vorgangs"
             />
             <figcaption>
-              Aufnahme eines auffaelligen Annaeherungsvorgangs an die naechste Altersstufe. Eine Entkraeftung der
-              Bildlage erscheint nach vorlaeufiger Aktenpruefung nicht wahrscheinlich.
+              Vorlaeufige Dokumentation eines beschleunigten Annaeherungsvorgangs an den naechsten Geburtstag.
             </figcaption>
           </figure>
         </section>
 
-        <section class="section-block" aria-labelledby="offense-heading">
-          <div class="block-heading">
-            <h2 id="offense-heading">Tatvorwurf / Sachverhalt</h2>
-            <span class="block-code">Niederschrift 4c</span>
-          </div>
-          <p class="official-copy">
-            Ihnen wird vorgeworfen, am genannten Datum vorsaetzlich oder fahrlaessig ein weiteres Lebensjahr erreicht
-            zu haben.
-          </p>
-          <p class="official-copy">
-            Nach vorlaeufiger Bewertung wurde hierdurch ein Alter von <strong data-age-inline>34</strong> Jahren
-            erreicht. Der Vorgang wurde dokumentiert und die Verhandlung des Tatvorwurfs Geburtstag zur weiteren
-            Klaerung anberaumt.
-          </p>
-          <div class="annotated-box">
-            <p><strong>Zusatzvermerk:</strong> Es bestehen Anhaltspunkte fuer Speisen, Getraenke und soziale Interaktion.</p>
-            <p>
-              Anlassspezifische Einzelheiten:
-              <span class="redaction redaction-wide" aria-hidden="true"></span>
-            </p>
-            <p>
-              Verfahrensbegleitende Massnahmen:
-              <span class="redaction redaction-medium" aria-hidden="true"></span>
-            </p>
-          </div>
-        </section>
-
         <section class="section-block" aria-labelledby="hearing-heading">
-          <div class="block-heading">
-            <h2 id="hearing-heading">Ladung / Gelegenheit zur Zeugenaussage</h2>
-            <span class="block-code">Hinweisblatt 7</span>
+          <div class="block-head">
+            <h2 id="hearing-heading">Ladungsverfuegung</h2>
+            <span class="block-code">Blatt 2</span>
           </div>
-          <p class="official-copy">
-            Sie erhalten Gelegenheit, zum Sachverhalt als Zeugin oder Zeuge Stellung zu nehmen. Von weiteren
-            Massnahmen kann bei fristgerechtem persoenlichem Erscheinen im Zeugenstand abgesehen werden.
+          <p class="body-copy">
+            Sie werden hiermit geladen, zum unten bezeichneten Termin im Zeugenstand zu erscheinen. Ihr Ausbleiben kann
+            dazu fuehren, dass das Verfahren ohne Ihre sachdienlichen Angaben fortgefuehrt wird.
           </p>
-          <p class="official-copy">
-            Eine geordnete Verhandlung mit anschliessender verfahrensbegleitender Geselligkeit wird verwaltungsseitig
-            ausdruecklich begruesst.
+          <p class="body-copy">
+            Die Kammer weist darauf hin, dass eine geordnete Aussagebereitschaft, angemessene soziale Beteiligung und
+            spaetere Mitwirkung an der Aufnahme von Speisen und Getraenken der Verfahrensfoerderung dienen.
           </p>
           <div class="riddle-box">
-            <p class="mini-label">Verifizierungshinweis</p>
+            <p class="box-label">Vermerk zur Freigabe der gesperrten Anlage</p>
             <p data-riddle>
-              Die benoetigte Zahl entspricht dem Alter, das nach Vollzug des vorgeworfenen Lebensjahres erreicht wird.
+              Die benoetigte Zahl entspricht dem Alter, das Gegenstand der Verhandlung wird, sobald der Tatvorwurf
+              rechtswirksam festgestellt ist.
             </p>
           </div>
         </section>
 
         <section class="section-block unlock-block" aria-labelledby="unlock-heading">
-          <div class="block-heading">
-            <h2 id="unlock-heading">Sperrvermerk / Freigabecode</h2>
+          <div class="block-head">
+            <h2 id="unlock-heading">Freigabe der gesperrten Anlage</h2>
             <span class="block-code">Prueffeld 04</span>
           </div>
           <form class="unlock-form" id="unlock-form" novalidate>
@@ -175,12 +141,12 @@
                 pattern="[0-9]*"
                 aria-describedby="unlock-help unlock-feedback"
               />
-              <button type="submit">Pruefen</button>
+              <button type="submit">Freigeben</button>
             </div>
-            <p id="unlock-help" class="help-text">Nur Ziffern eingeben. Die Freigabe erfolgt ausschliesslich lokal auf diesem Geraet.</p>
+            <p id="unlock-help" class="help-text">Nur Ziffern. Die Entsperrung erfolgt ausschliesslich lokal auf diesem Geraet.</p>
             <p id="unlock-feedback" class="feedback" aria-live="polite"></p>
           </form>
-          <button type="button" class="reset-button" id="reset-button">Vorgang wieder sperren</button>
+          <button type="button" class="reset-button" id="reset-button">Anlage erneut sperren</button>
         </section>
 
         <section
@@ -189,43 +155,43 @@
           aria-labelledby="invitation-heading"
           aria-hidden="true"
         >
-          <div class="block-heading">
-            <h2 id="invitation-heading">Freigegebene Anlage / Ladung in den Zeugenstand</h2>
+          <div class="block-head">
+            <h2 id="invitation-heading">Freigegebene Anlage / Terminsbestimmung</h2>
             <span class="stamp success">FREIGEGEBEN</span>
           </div>
-          <div class="release-note">
-            <p class="mini-label">Nach Freigabe sichtbar</p>
-            <h3 data-invite-title>Ladung in den Zeugenstand zur Verhandlung des Geburtstags</h3>
-            <p class="official-copy">
-              Hiermit werden Sie zur unmittelbaren Teilnahme an der Verhandlung des im Raum stehenden Geburtstags
-              geladen. Ihre Anwesenheit im Zeugenstand gilt zugleich als ausdruecklich erwuenschte Teilnahme an der
-              anschliessenden geselligen Beweisaufnahme.
+          <div class="release-panel">
+            <p class="box-label">Nur nach Freigabe einsehbar</p>
+            <h3 data-invite-title>Verhandlung des Geburtstags von Alex Beispiel</h3>
+            <p class="body-copy release-copy">
+              Bei dem Termin handelt es sich tatsaechlich um eine Geburtstagsfeier. Ihre Ladung in den Zeugenstand ist
+              zugleich die Einladung, persoenlich zu erscheinen und den Tatvorwurf Geburtstag angemessen zu begleiten.
             </p>
-            <dl class="form-grid invitation-grid">
-              <div class="form-row">
-                <dt>Datum</dt>
+            <dl class="data-grid release-grid">
+              <div class="data-row">
+                <dt>Termin</dt>
                 <dd data-date-detail>Samstag, 18. April 2026</dd>
               </div>
-              <div class="form-row">
+              <div class="data-row">
                 <dt>Uhrzeit</dt>
                 <dd data-time>19:00 Uhr</dd>
               </div>
-              <div class="form-row">
-                <dt>Ort</dt>
+              <div class="data-row">
+                <dt>Ort des Erscheinens</dt>
                 <dd data-location-detail>Atelierhaus Nord, Berlin</dd>
               </div>
-              <div class="form-row">
-                <dt>Dresscode</dt>
+              <div class="data-row">
+                <dt>Dienstkleidung</dt>
                 <dd data-dresscode>Unauffaellig festlich</dd>
               </div>
-              <div class="form-row full-row">
+              <div class="data-row full-row">
                 <dt>Rueckmeldung</dt>
                 <dd data-rsvp>Bitte kurze Zusage bis 10. April.</dd>
               </div>
             </dl>
-            <p class="release-copy" data-settlement>
-              Die Angelegenheit gilt als erledigt, sobald Sie persoenlich im Zeugenstand erscheinen, den Tatvorwurf
-              Geburtstag anerkennen und zur ordnungsgemaessen Vernichtung bereitgestellter Verpflegung beitragen.
+            <p class="order-note" data-settlement>
+              Von weiteren Massnahmen kann abgesehen werden, wenn Sie zum Termin erscheinen, gratulieren und durch
+              angemessene Mitwirkung an Speisen, Getraenken und Gespraechen zur endgueltigen Erledigung des Verfahrens
+              beitragen.
             </p>
           </div>
         </section>
